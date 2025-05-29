@@ -16,7 +16,7 @@ pipeline {
     environment {
         // IMPORTANT: Replace 'yourdockerhubusername' with your actual Docker Hub username.
         // IMPORTANT: Replace 'yourimagename' with your desired image name.
-        IMAGE_NAME = "Jeevithaboggadi/myflaskapp"
+        IMAGE_NAME = "jeevitha682/myflaskapp"
         // ID of the Docker Hub credentials stored in Jenkins (see Step 1)
         DOCKERHUB_CREDENTIALS_ID = "docker-hub-credentials"
     }
